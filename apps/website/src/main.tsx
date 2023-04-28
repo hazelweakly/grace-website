@@ -1,18 +1,16 @@
-import { StrictMode } from 'react';
-import * as ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import {StrictMode} from 'react'
+import * as ReactDOM from 'react-dom/client'
+import {BrowserRouter} from 'react-router-dom'
 
-import App from './app/app';
-import NavBar from './app/NavBar';
+import App from './app/app'
+import NavBar from './app/NavBar'
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <StrictMode>
     <BrowserRouter>
-      <NavBar />
+      {/* <NavBar /> */}
       <App />
     </BrowserRouter>
   </StrictMode>
-);
+)
