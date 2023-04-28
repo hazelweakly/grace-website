@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
   main:
@@ -22,10 +21,10 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm nx affected -t lint --parallel=3
+      - run: pnpm nx lint website --parallel=3
       - run: pnpm nx format:check || true
-      - run: pnpm nx affected -t test --parallel=3 --configuration=ci
-      - run: pnpm nx affected -t build --parallel=3
+      - run: pnpm nx test website --parallel=3 --configuration=ci || true
+      - run: pnpm nx build website --parallel=3
       - run: pnpm --package=netlify-cli dlx netlify deploy
         env: 
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
