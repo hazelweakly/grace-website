@@ -1,0 +1,25 @@
+name: main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: nrwl/nx-set-shas@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm nx affected -t lint --parallel=3
+      - run: pnpm nx format:check
+      - run: pnpm nx affected -t test --parallel=3 --configuration=ci
+      - run: pnpm nx affected -t build --parallel=3
