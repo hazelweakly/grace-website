@@ -1,6 +1,12 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function NavBar() {
+
+  const location = useLocation();
+  console.log(location.pathname)
+  const activeClass = 'bg-sky-600 bg-cyan-400 text-white px-4 py-3 flex items-center space-x-4 rounded-md';
+  const inactiveClass = 'relative px-4 py-3 flex items-center space-x-4 text-gray-600 group rounded-md';
+
   return (
     <aside className="ml-[-100%] fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]">
       <div>
@@ -32,10 +38,10 @@ export default function NavBar() {
         <li>
             <Link
               to="/"
-              className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
+              className={location.pathname === '/' ? activeClass : inactiveClass}
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                // xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -58,7 +64,7 @@ export default function NavBar() {
             <Link
               to="/resume"
               aria-label="resume"
-              className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
+              className={location.pathname === '/resume' ? activeClass : inactiveClass}
             >
               <svg className="-ml-1 h-6 w-6" viewBox="0 0 24 24" fill="none">
                 <path
@@ -105,8 +111,7 @@ export default function NavBar() {
           <li>
             <Link
               to="#"
-              className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
-            >
+              className={location.pathname === '/about-me' ? activeClass : inactiveClass}            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -130,8 +135,7 @@ export default function NavBar() {
           <li>
             <Link
               to="#"
-              className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
-            >
+              className={location.pathname === '/blog' ? activeClass : inactiveClass}            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -153,8 +157,7 @@ export default function NavBar() {
           <li>
             <Link
               to="#"
-              className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
-            >
+              className={location.pathname === '/youtube' ? activeClass : inactiveClass}            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -178,8 +181,7 @@ export default function NavBar() {
           <li>
             <Link
               to="#"
-              className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
-            >
+              className={location.pathname === '/dancer' ? activeClass : inactiveClass}            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
