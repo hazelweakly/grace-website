@@ -16,7 +16,7 @@ export default function NavBar() {
 
         <div className="mt-8 text-center">
           <img
-              src="https://tailus.io/sources/blocks/stats-cards/preview/images/second_user.webp"
+              src="/assets/images/headshot.jpg"
               alt=""
               className="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28"
             />
