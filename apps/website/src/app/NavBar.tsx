@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 export default function NavBar() {
 
   const location = useLocation();
-  console.log(location.pathname)
   const activeClass = 'bg-sky-600 bg-cyan-400 text-white px-4 py-3 flex items-center space-x-4 rounded-md';
   const inactiveClass = 'relative px-4 py-3 flex items-center space-x-4 text-gray-600 group rounded-md';
 
