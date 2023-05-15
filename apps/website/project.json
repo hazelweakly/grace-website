@@ -14,7 +14,8 @@
         "main": "apps/website/src/main.tsx",
         "tsConfig": "apps/website/tsconfig.app.json",
         "rspackConfig": "apps/website/rspack.config.js",
-        "assets": ["apps/website/src/favicon.ico", "apps/website/src/assets"]
+        "assets": ["apps/website/src/favicon.ico", "apps/website/src/assets"],
+        "postcssConfig": "apps/website/postcss.config.js"
       },
       "configurations": {
         "development": {
