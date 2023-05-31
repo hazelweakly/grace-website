@@ -267,7 +267,7 @@ const ResumePage = ({ title }: { title: string }) => {
           <h4 className="h-5 w-full z-1 py-4 font-bold">EDUCATION</h4>
           <p className="pt-4">
             <a
-              href="https://flatironschool.com/"
+              href="https://flatironschool.com/award-winning/"
               className="font-bold text-sky-600 text-cyan-400 pl-1"
             >
               Flatiron School
