@@ -79,11 +79,16 @@ const ResumePage = ({ title }: { title: string }) => {
           <div>
             <p className="py-2">
               <strong>Software Advisor</strong> at{' '}
-              <strong>Software Advice</strong>, Austin, Texas{' '}
+              <a
+                href="https://www.softwareadvice.com/"
+                className="font-bold text-sky-600 text-cyan-400"
+              >
+                Software Advice
+              </a>
+              , Austin, Texas{' '}
               <span className="float-right">06/2019 - 09/2022</span>
             </p>
             <ul>
-              <a href="https://www.softwareadvice.com/?utm_source=google-search&utm_medium=ppc&utm_term=software%20advice&utm_matchtype=e&network=g&adpos=&ad=585527242977&sitelink=&location=9033322&gclsrc=aw.ds&&targetid=kwd-304938566311&utm_source=google-search&utm_medium=ppc&utm_term=software%20advice&utm_matchtype=e&network=g&device=c&adpos=&ad=585527242977&sitelink=&location=9033322&targetid=kwd-304938566311&campaign=16445941149&adgroup=136837529711&utm_campaign=:1:SA:2:COM:3:ENG:4:US:5:BAU:6:SOF:8:EX:10:Brand&gad=1&gclid=CjwKCAjwvdajBhBEEiwAeMh1Ux9WUcB-_NMiLadj3Op-Hz1uhKPAhLFkdxa-NLj8SLWaGMcSkJ_FSxoCapQQAvD_BwE" />
               <li className="list-disc list-inside px-4">
                 Communicated with buyers about software needs and recommended
                 three to five solutions
@@ -102,11 +107,17 @@ const ResumePage = ({ title }: { title: string }) => {
               </li>
             </ul>
             <p className="py-2">
-              <strong>Accountant</strong> at <strong>Improving</strong>, Dallas,
-              Texas <span className="float-right">04/2016 - 12/2018</span>
+              <strong>Accountant</strong> at
+              <a
+                href="https://improving.com/"
+                className="font-bold text-sky-600 text-cyan-400 pl-1"
+              >
+                Improving
+              </a>
+              , Dallas, Texas{' '}
+              <span className="float-right">04/2016 - 12/2018</span>
             </p>
             <ul className="list-disc list-inside px-4">
-              <a href="https://improving.com/" />
               <li>
                 Managed the Columbus, Ohio entity of over 100 employees,
                 accounting remotely
@@ -254,9 +265,14 @@ const ResumePage = ({ title }: { title: string }) => {
             </ul>
           </div>
           <h4 className="h-5 w-full z-1 py-4 font-bold">EDUCATION</h4>
-          <p>
-            <strong>Flatiron School</strong>, Online{' '}
-            <span className="float-right">09/2022 - 01/2023</span>
+          <p className="pt-4">
+            <a
+              href="https://flatironschool.com/"
+              className="font-bold text-sky-600 text-cyan-400 pl-1"
+            >
+              Flatiron School
+            </a>
+            , Online <span className="float-right">09/2022 - 01/2023</span>
           </p>
           <ul className="list-disc list-inside px-4">
             <li>
@@ -264,9 +280,14 @@ const ResumePage = ({ title }: { title: string }) => {
               program{' '}
             </li>
           </ul>
-          <p>
-            <strong>The University of North Texas</strong>, Denton, Texas{' '}
-            <span className="float-right">12/2016</span>
+          <p className="pt-4">
+            <a
+              href="https://www.unt.edu/"
+              className="font-bold text-sky-600 text-cyan-400 pl-1"
+            >
+              The University of North Texas
+            </a>
+            , Denton, Texas <span className="float-right">12/2016</span>
           </p>
           <ul className="list-disc list-inside px-4">
             <li>
