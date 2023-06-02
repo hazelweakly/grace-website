@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 export default function NavBar() {
   const location = useLocation();
   const activeClass =
-    'bg-sky-600 bg-cyan-400 text-white px-4 py-3 flex items-center space-x-4 rounded-md';
+    'bg-slate-100 text-red-700 px-4 py-3 flex items-center space-x-4 rounded-md font-bold';
   const inactiveClass =
     'relative px-4 py-3 flex items-center space-x-4 text-gray-600 group rounded-md';
 
@@ -38,7 +38,7 @@ export default function NavBar() {
               to="/resume"
               className={location.pathname === '/resume' ? activeClass : inactiveClass}
             >
-              <span className="-mr-1 font-medium">Resume</span>
+              <span className="group-hover:text-gray-700">Resume</span>
             </Link>
           </li>
           <li>
