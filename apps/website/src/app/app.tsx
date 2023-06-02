@@ -1,6 +1,6 @@
 import {Route, Routes } from 'react-router-dom'
-import { Components } from '@grace-website/components';
-import { Popover } from '@grace-website/components';
+// import { Components } from '@grace-website/components';
+// import { Popover } from '@grace-website/components';
 
 import HomePage from './HomePage'
 import ResumePage from './ResumePage'
@@ -14,8 +14,8 @@ export function App() {
   return (
     <div>
       <NavBar />
-      <Components />
-      <Popover />
+      {/* <Components />
+      <Popover /> */}
       <Routes>
         <Route path="/" element={<HomePage title="home" />}></Route>
         <Route path="/resume" element={<ResumePage title="resume" />}></Route>
