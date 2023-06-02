@@ -1,30 +1,60 @@
 const Blog = ({ title }: { title: string }) => {
   return (
-    <div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] h-screen bg-green-900 bg-opacity-30">
-      <div className="max-w-sm w-full lg:max-w-full lg:flex p-4">
-        <div
-          className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          // style="background-image: url('/img/card-left.jpg')"
-          title="Woman holding a mug"
-        ></div>
+    <div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] h-screen bg-green-900 bg-opacity-30 p-52">
+      <div className="max-w-sm w-auto lg:max-w-full lg:flex p-1.5 h-30">
+        <img
+          className="bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          src="/assets/images/blogGitWorkflow.jpg"
+          alt="team collaborating"
+        />
         <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal drop-shadow-lg">
           <div className="mb-8">
-            <p className="text-sm text-gray-600 flex items-center">
-              Members only
-            </p>
+            <p className="text-sm text-gray-600 flex items-center">Medium</p>
             <div className="text-gray-900 font-bold text-xl mb-2">
-              Can coffee make you a better developer?
+              GitHub Project Workflow for Multiple Collaborators
             </div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              I wrote this blog to articulate the Git workflow for when there
+              are multiple contributors. I noticed when I was collaborating with
+              other students I always ended up was teaching them the workflow. I
+              wanted to make it more accessible for the other students in my
+              cohort. They found it really helpful, so I wanted to share it here
+              as well.
             </p>
           </div>
           <div className="flex items-center">
             <div className="text-sm">
               <p className="text-gray-900 leading-none">Grace Durant</p>
-              <p className="text-gray-600">Aug 18</p>
+              <p className="text-gray-600">Nov 28, 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="max-w-sm w-auto lg:max-w-full lg:flex p-1.5">
+        <img
+          className="bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          src="/assets/images/blogRecoil.jpg"
+          alt="team collaborating"
+        />
+        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal drop-shadow-lg">
+          <div className="mb-8">
+            <p className="text-sm text-gray-600 flex items-center">Medium</p>
+            <div className="text-gray-900 font-bold text-xl mb-2">
+              Recoil to the Rescue
+            </div>
+            <p className="text-gray-700 text-base">
+              Throughout my last few projects, I used useState to manage the
+              different states I was tracking in my app. My apps continually had
+              way too many props passed to and through the components. Because
+              of this, I called my last several projects “prop happy.” Entering
+              my final project for Bootcamp, I am taking a different approach.
+              Enter Recoil. Recoil is a state management library for React.
+            </p>
+          </div>
+          <div className="flex items-center">
+            <div className="text-sm">
+              <p className="text-gray-900 leading-none">Grace Durant</p>
+              <p className="text-gray-600">Dec 16, 2022</p>
             </div>
           </div>
         </div>
