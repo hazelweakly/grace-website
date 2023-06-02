@@ -2,7 +2,7 @@ const ResumePage = ({ title }: { title: string }) => {
   return (
     <div className="bg-slate-50 h-full w-full">
       <div className="ml-auto mb-6 p-4 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] 3xl:w-[100%] rounded-sm">
-        <div className="h-20 w-full p-1 bg-red-100 rounded-md"></div>
+        <div className="h-10 w-full p-1 bg-red-100 rounded-md"></div>
         {/* <div className="h-full w-2 bg-blue-200 float-left fixed z-1"></div> */}
         <div className="inline-block my-6px	ml-55px w-full h-fit p-4">
           <br />
@@ -180,7 +180,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <li>
                 Leveraged Chrome/React Devtools and strategic console statements
                 to monitor app state and methodically debug errors, leading to
-                improved stability by{' '}
+                improved stability
               </li>
             </ul>
             <p className="pt-4">
@@ -215,16 +215,19 @@ const ResumePage = ({ title }: { title: string }) => {
             </p>
             <ul className="list-disc list-inside px-4">
               <li>
-                Integrated RESTful API featuring ~500,000 movies and TV shows
-                searchable by partial title{' '}
+                Integrated a comprehensive RESTful API featuring ~500,000 movies
+                and TV shows, enabling partial title search functionality
+                resulting in a more efficient and accessible user experience
               </li>
               <li>
                 Implemented Semantic-UI React, providing a quick solution for
-                consistent design to expedite development time
+                consistent design to expedite development time yielding a
+                visually appealing user interface
               </li>
               <li>
                 Incorporated full CRUD capabilities in a lightweight Sinatra
-                back-end to handle frontend requests for data
+                back-end to handle frontend requests for data resulting in
+                seamless data management and manipulation
               </li>
             </ul>
             <p className="pt-4">
@@ -251,16 +254,18 @@ const ResumePage = ({ title }: { title: string }) => {
             </p>
             <ul className="list-disc list-inside px-4">
               <li>
-                Optimized React app with Recoil by reducing dependencies between
-                components
+                Optimized React app with Recoil, reducing dependencies between
+                components to improve maintainability, scalability, and
+                readability
               </li>
               <li>
                 Built back-end with full CRUD capabilities and validations in
-                Ruby on Rails{' '}
+                Ruby on Rails, increasing data management and integrity
+                throughout the application
               </li>
               <li>
                 Employed Bcrypt hashing on the back-end and authentication
-                routes on the front-end to ensure user privacy{' '}
+                routes on the front-end to ensure user privacy
               </li>
             </ul>
           </div>
