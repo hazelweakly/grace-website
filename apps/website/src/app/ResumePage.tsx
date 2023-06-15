@@ -1,85 +1,153 @@
 const ResumePage = ({ title }: { title: string }) => {
   return (
-    <div className="bg-teal-50 bg-opacity-50 h-full w-full text-slate-800">
-      <div className="ml-auto mb-6 p-10 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] 3xl:w-[100%] rounded-sm">
+    <div className="h-fit w-full text-slate-800">
+      <img
+        src="/assets/images/annie-spratt-PM4Vu1B0gxk-unsplash.jpg"
+        alt=""
+        className="w-full h-fit object-cover absolute mix-blend-overlay opacity-20 "
+      />
+      <div className="ml-auto mb-6 p-10 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] 3xl:w-[100%] rounded-sm ">
         {/* <div className="h-52 w-full p-1 bg-green-800 opacity-10 rounded-md"></div> */}
         {/* <div className="h-full w-2 bg-blue-200 float-left fixed z-1"></div> */}
-        <div className="inline-block my-6px	ml-55px w-full h-fit p-4">
+
+        <div
+          className="inline-block my-6px	ml-55px w-full h-fit p-4
+        
+        "
+        >
           <br />
-          <h1 className="font-bold text-6xl	text-red-800 text-opacity-70">
+          <h1 className="font-bold text-6xl	text-amber-800 text-opacity-70">
             Grace Durant
           </h1>
           <div className="font-semibold text-lg">
             Seattle, WA |
-            <a href="tel:9403123425" className="text-teal-700">
+            <a href="tel:9403123425" className="text-cyan-900 text-opacity-90">
               {' '}
               940-312-3425
             </a>{' '}
             |
-            <a href="mailto:gdurant34@gmail.com" className="text-teal-700 ">
+            <a
+              href="mailto:gdurant34@gmail.com"
+              className="text-cyan-900 text-opacity-90 "
+            >
               {' '}
               gdurant34@gmail.com
             </a>{' '}
             |
             <a
               href="https://www.linkedin.com/in/gracedurant/"
-              className="text-teal-700 "
+              className="text-cyan-900 text-opacity-90 "
             >
               {' '}
               LinkedIn
             </a>{' '}
             |
-            <a href="https://github.com/gdurant34" className="text-teal-700">
+            <a
+              href="https://github.com/gdurant34"
+              className="text-cyan-900 text-opacity-90"
+            >
               {' '}
               Github
             </a>{' '}
             |
-            <a href="https://medium.com/@gdurant34" className="text-teal-700">
+            <a
+              href="https://medium.com/@gdurant34"
+              className="text-cyan-900 text-opacity-90"
+            >
               {' '}
               Blog
             </a>{' '}
             |
             <a
               href="https://github.com/gdurant34/Portfolio"
-              className="text-teal-700"
+              className="text-cyan-900 text-opacity-90"
             >
               {' '}
               Portfolio
             </a>
           </div>
           <br />
-          <h4 className="h-5 w-full z-1 font-bold">CERTIFICATIONS</h4>
-          <ul className="list-disc list-inside ">
-            <li>AWS Certified Cloud Practitioner</li>
-          </ul>
+          <p className="">
+            <span className="h-5 w-full z-1  font-bold">TECHNOLOGY: </span>
+            React | Typescript | PostgreSQL | Ruby | Ruby on Rails | HTML5 &
+            CSS3
+          </p>
+          <p>
+            <span className="h-5 w-full z-1 font-bold">SKILLS: </span>
+            Tailwind | Recoil | Git | Node | ActiveRecord | Object-Oriented
+            Programing | Functional Programing
+          </p>
+          <p>
+            <span className="h-5 w-full z-1 font-bold">CERTIFICATIONS: </span>
+            AWS Certified Cloud Practitioner, Flatiron’s Software Engineering
+            Live
+          </p>
+
           <br />
-          <h4 className="h-5 w-full z-1  font-bold">SOFTWARE ENGINEER</h4>
-          <p className="py-2">
-            Experience in Ruby on Rails, React, and JavaScript based programming
-            with a background in software sales. Possess strong skills in
-            teamwork, building a supportive and encouraging environment, while
-            challenging each other to continually grow. Established track record
-            for success in applying technical skills in accounting and soft
-            skills in sales by creating trust quickly through strong
-            communication. Excited to continue to develop my unique skill set by
-            applying creativity to my problem-solving approach.
-          </p>
-          <h4 className="h-5 w-full z-1  font-bold">TECHNICAL SKILLS</h4>
-          <p className="py-2">
-            Ruby (1 year), Ruby on Rails (1 year), SQL (2 years), JavaScript (1
-            year), React (1 year), CSS (1 year), Recoil, Git/Github, HTML (1
-            year), ActiveRecord (1 year), Object-Oriented Programming (OOP) (1
-            year), Postman, PostgresSQL, SQLite, Restful API (1 year), Tailwind
-            CSS
-          </p>
+
           <h4 className="h-5 w-full z-1 pt-4 font-bold">EXPERIENCE</h4>
           <br />
           <div>
             <p className="py-2">
+              <strong>Junior Software Engineer</strong> at{' '}
+              <a
+                href="https://www.softwareadvice.com/"
+                className="font-bold text-amber-900 text-opacity-90"
+              >
+                STL Swing
+              </a>
+              , St. Louis, Missouri{' '}
+              <span className="float-right">01/2023 - Present</span>
+            </p>
+            <ul>
+              <li className="list-disc list-inside px-4">
+                Leverage Tailwind to streamline the styling process
+              </li>
+              <li className="list-disc list-inside px-4">
+                Work independently applying Agile practices to complete tasks
+              </li>
+              <li className="list-disc list-inside px-4">
+                Created admin forms in React with steppers to guide the
+                workflow, and validations for data accuracy
+              </li>
+            </ul>
+            <p className="py-2">
+              <strong>Student</strong> at{' '}
+              <a
+                href="https://www.softwareadvice.com/"
+                className="font-bold text-amber-900 text-opacity-90"
+              >
+                Flatiron School
+              </a>
+              , Online <span className="float-right">09/2022 - 01/2023</span>
+            </p>
+            <ul>
+              <li className="list-disc list-inside px-4">
+                Gained full-stack experience in programming fundamentals, web
+                frameworks, and multiple languages through app development
+              </li>
+              <li className="list-disc list-inside px-4">
+                Programmed single-page web applications with React Router for
+                seamless navigation and a better user experience
+              </li>
+              <li className="list-disc list-inside px-4">
+                Leveraged Chrome/React Devtools and strategic console statements
+                to monitor app state and methodically debug errors
+              </li>
+              <li className="list-disc list-inside px-4">
+                Implemented Semantic-UI React, providing quick solutions for
+                consistent design to expedite development time
+              </li>
+              <li className="list-disc list-inside px-4">
+                Built back-end with CRUD capabilities and validations in Ruby on
+                Rails, increasing data integrity throughout the app
+              </li>
+            </ul>
+            <p className="py-2">
               <strong>Software Advisor</strong> at{' '}
               <a
                 href="https://www.softwareadvice.com/"
-                className="font-bold text-teal-700"
+                className="font-bold text-amber-900 text-opacity-90"
               >
                 Software Advice
               </a>
@@ -88,12 +156,12 @@ const ResumePage = ({ title }: { title: string }) => {
             </p>
             <ul>
               <li className="list-disc list-inside px-4">
-                Communicated with buyers about software needs and recommended
-                three to five solutions
+                Communicated buyer needs to our clients for a smoother
+                transition
               </li>
               <li className="list-disc list-inside px-4">
-                Aided buyers looking for software in over 12 different
-                industries including Medical, ERP, and Project Management
+                Gathered buyers technical requirements to ensure the best
+                possible recommendations
               </li>
               <li className="list-disc list-inside px-4">
                 Outperformed the ERP team by 50% in revenue generated and the
@@ -108,7 +176,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <strong>Accountant</strong> at
               <a
                 href="https://improving.com/"
-                className="font-bold text-teal-700 pl-1"
+                className="font-bold text-amber-900 text-opacity-90 pl-1"
               >
                 Improving
               </a>
@@ -117,20 +185,20 @@ const ResumePage = ({ title }: { title: string }) => {
             </p>
             <ul className="list-disc list-inside px-4">
               <li>
-                Managed the Columbus, Ohio entity of over 100 employees,
-                accounting remotely
-              </li>
-              <li>
                 Collaborated with vendors for full A/P cycle, and sales staff,
-                clients, and consultants for full A/R cycle{' '}
+                clients, and consultants for full A/R cycle
               </li>
               <li>
-                Ran payroll, and paid payroll taxes for two entities in two
-                different states and over 300 employees
+                Coordinated meetings with engineers to learn about software
+                development practices
+              </li>
+              <li>
+                Applied scrum principles to manage the Columbus, Ohio entities
+                accounting operations remotely
               </li>
               <li>
                 Partnered with leadership for monthly and yearly close, and
-                created presentations on entities' performance
+                created presentations on entities' performance for reporting
               </li>
             </ul>
           </div>
@@ -140,7 +208,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <span className="font-semibold">Financial Goals</span> -
               <a
                 href="https://github.com/gdurant34/financial_goals_phase_2_project"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Github
@@ -148,7 +216,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://www.youtube.com/watch?v=SM_UWHfj3_8&t=3s"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Demo
@@ -161,31 +229,19 @@ const ResumePage = ({ title }: { title: string }) => {
             </p>
             <ul className="list-disc list-inside px-4">
               <li>
-                Programmed a single-page web application with streamlined
-                navigation for a seamless user experience by applying
-                fundamental React and React Router patterns
+                Developed a lightweight interactive interface for React to
+                visulize goal progress bar
               </li>
               <li>
-                Developed a lightweight interactive interface to increase user
-                motivation and engagement by employing intuitive data
-                visualization techniques for goal progress representation
-              </li>
-              <li>
-                Researched solutions to ensure accurate floating-point
-                calculations resulting in improved accuracy and reliability by
-                implementing an external 3rd party library
-              </li>
-              <li>
-                Leveraged Chrome/React Devtools and strategic console statements
-                to monitor app state and methodically debug errors, leading to
-                improved stability
+                Researched solutions and implemented a 3rd party library to
+                achieve accurate floating-point calculations
               </li>
             </ul>
             <p className="pt-4">
               <span className="font-semibold">Movie Social</span> -
               <a
                 href="https://github.com/gdurant34/project-movie-social"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Github Front-end
@@ -193,7 +249,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://github.com/gdurant34/phase-3-movie-social"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Github Back-end
@@ -201,7 +257,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://www.youtube.com/watch?v=LZ0wNL8z3N4&t=1s"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Demo
@@ -215,24 +271,17 @@ const ResumePage = ({ title }: { title: string }) => {
               <li>
                 Integrated a comprehensive RESTful API featuring ~500,000 movies
                 and TV shows, enabling partial title search functionality
-                resulting in a more efficient and accessible user experience
               </li>
               <li>
-                Implemented Semantic-UI React, providing a quick solution for
-                consistent design to expedite development time yielding a
-                visually appealing user interface
-              </li>
-              <li>
-                Incorporated full CRUD capabilities in a lightweight Sinatra
-                back-end to handle frontend requests for data resulting in
-                seamless data management and manipulation
+                Incorporated full CRUD capabilities in Sinatra back-end to
+                handle data requests resulting in seamless data management
               </li>
             </ul>
             <p className="pt-4">
               <span className="font-semibold">It’s a Date</span> -
               <a
                 href="https://github.com/gdurant34/phase-5-project-its-a-date"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Github
@@ -240,7 +289,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://www.youtube.com/watch?v=SZPFzpYK7As&t=1s"
-                className="text-teal-700"
+                className="text-amber-900 text-opacity-90"
               >
                 {' '}
                 Demo
@@ -254,12 +303,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <li>
                 Optimized React app with Recoil, reducing dependencies between
                 components to improve maintainability, scalability, and
-                readability
-              </li>
-              <li>
-                Built back-end with full CRUD capabilities and validations in
-                Ruby on Rails, increasing data management and integrity
-                throughout the application
+                reliability
               </li>
               <li>
                 Employed Bcrypt hashing on the back-end and authentication
@@ -270,23 +314,8 @@ const ResumePage = ({ title }: { title: string }) => {
           <h4 className="h-5 w-full z-1 py-4 font-bold">EDUCATION</h4>
           <p className="pt-4">
             <a
-              href="https://flatironschool.com/award-winning/"
-              className="font-bold text-teal-700 pl-1"
-            >
-              Flatiron School
-            </a>
-            , Online <span className="float-right">09/2022 - 01/2023</span>
-          </p>
-          <ul className="list-disc list-inside px-4">
-            <li>
-              Full Stack Web Development, Ruby on Rails, and JavaScript/React
-              program{' '}
-            </li>
-          </ul>
-          <p className="pt-4">
-            <a
               href="https://www.unt.edu/"
-              className="font-bold text-teal-700 pl-1"
+              className="font-bold text-amber-900 text-opacity-90 pl-1"
             >
               The University of North Texas
             </a>
@@ -300,9 +329,9 @@ const ResumePage = ({ title }: { title: string }) => {
           </ul>
         </div>
         {/* <div className="h-full w-2 bg-blue-200 float-right inherit"></div> */}
-        <div className="h-10 w-full p-1 bg-red-700 bg-opacity-60 rounded-md relative clear-both font-mono">
+        {/* <div className="h-10 w-full p-1 bg-red-700 bg-opacity-60 rounded-md relative clear-both font-mono">
           <div className="font-mono float-right mr-5">Grace</div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
