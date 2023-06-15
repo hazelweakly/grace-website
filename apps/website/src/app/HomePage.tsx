@@ -2,16 +2,16 @@
 
 const HomePage = ({ title }: { title: string }) => {
   return (
-    <div className="ml-auto lg:w-[75%] xl:w-[80%] 2xl:w-[85%] h-screen relative">
+    <div className="ml-auto lg:w-[75%] xl:w-[80%] 2xl:w-[85%] h-screen center">
       <img 
       src='/assets/images/home-plant.jpg'
       alt=''
       className='w-full h-full object-cover absolute mix-blend-overlay opacity-90'/>
-      <div className="p-12 2xl:container h-screen">
+      <div className="p-12 2xl:container h-screen center">
         <div className="h-screen">
-          <div className="h-100 py-8 px-6 space-y-6 border border-gray-200 bg-slate-50 bg-opacity-100 rounded-lg">
+          <div className="h-100 p-12 space-y-6 border border-gray-200 bg-slate-50 bg-opacity-100 rounded-lg">
               <h3 className="text-5xl font-bold text-green-950">My Why</h3>
-              <p className='text-lg'>
+              <p className='text-lg font-black-900 font-normal'>
                 I am a career professional with 12 years of experience across
                 multiple industries. After my experience working in software
                 sales, I changed careers to Software Engineering because I
@@ -34,7 +34,6 @@ const HomePage = ({ title }: { title: string }) => {
                 previous roles because I love continuous growth and helping
                 others thrive.
               </p>
-              <div className="flex items-end gap-1 text-red-500"></div>
             </div>
         </div>
       </div>
