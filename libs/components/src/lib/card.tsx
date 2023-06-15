@@ -1,4 +1,4 @@
-import * as AspectRatio from '@radix-ui/react-aspect-ratio'
+import * as AspectRatio from '@radix-ui/react-aspect-ratio';
 
 export const Card = ({
   name,
@@ -17,7 +17,7 @@ export const Card = ({
 }) => (
   <div className="w-auto lg:max-w-full lg:flex p-1.5 h-fit overflow-hidden">
     <AspectRatio.Root ratio={16 / 9}>
-    <img
+      <img
         className="object-cover h-full w-full"
         src={image}
         alt="team collaborating"
@@ -46,7 +46,6 @@ export const Card = ({
       </div>
     </div>
   </div>
-
 );
 
 export default Card;
