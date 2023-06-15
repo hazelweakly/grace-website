@@ -47,7 +47,7 @@ export default function NavBar() {
               className={
                 location.pathname === '/about-me' ? activeClass : inactiveClass}
             >
-              <span className="group-hover:text-gray-700">About Me</span>
+              <span className="group-hover:text-gray-700">Contact</span>
             </Link>
           </li>
           <li>
