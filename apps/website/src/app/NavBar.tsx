@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 export default function NavBar() {
   const location = useLocation();
   const activeClass =
-    'bg-green-800 bg-opacity-5 text-green-900 px-4 py-3 flex items-center space-x-4 rounded-md font-bold';
+    'bg-red-800 bg-opacity-10 text-teal-700 px-4 py-3 flex items-center space-x-4 rounded-md font-bold';
   const inactiveClass =
     'relative px-4 py-3 flex items-center space-x-4 text-gray-600 group rounded-md';
 
@@ -58,7 +58,7 @@ export default function NavBar() {
               <span className="group-hover:text-gray-700">Blog</span>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/youtube"
               className={location.pathname === '/youtube' ? activeClass : inactiveClass}
@@ -73,7 +73,7 @@ export default function NavBar() {
             >
               <span className="group-hover:text-gray-700">Dancer</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </aside>
