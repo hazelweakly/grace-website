@@ -1,6 +1,6 @@
 const ResumePage = ({ title }: { title: string }) => {
   return (
-    <div className="bg-slate-50 h-full w-full text-slate-800">
+    <div className="bg-teal-50 bg-opacity-50 h-full w-full text-slate-800">
       <div className="ml-auto mb-6 p-10 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] 3xl:w-[100%] rounded-sm">
         {/* <div className="h-52 w-full p-1 bg-green-800 opacity-10 rounded-md"></div> */}
         {/* <div className="h-full w-2 bg-blue-200 float-left fixed z-1"></div> */}
@@ -11,37 +11,37 @@ const ResumePage = ({ title }: { title: string }) => {
           </h1>
           <div className="font-semibold text-lg">
             Seattle, WA |
-            <a href="tel:9403123425" className="text-sky-600">
+            <a href="tel:9403123425" className="text-teal-700">
               {' '}
               940-312-3425
             </a>{' '}
             |
-            <a href="mailto:gdurant34@gmail.com" className="text-sky-600 ">
+            <a href="mailto:gdurant34@gmail.com" className="text-teal-700 ">
               {' '}
               gdurant34@gmail.com
             </a>{' '}
             |
             <a
               href="https://www.linkedin.com/in/gracedurant/"
-              className="text-sky-600 "
+              className="text-teal-700 "
             >
               {' '}
               LinkedIn
             </a>{' '}
             |
-            <a href="https://github.com/gdurant34" className="text-sky-600">
+            <a href="https://github.com/gdurant34" className="text-teal-700">
               {' '}
               Github
             </a>{' '}
             |
-            <a href="https://medium.com/@gdurant34" className="text-sky-600">
+            <a href="https://medium.com/@gdurant34" className="text-teal-700">
               {' '}
               Blog
             </a>{' '}
             |
             <a
               href="https://github.com/gdurant34/Portfolio"
-              className="text-sky-600"
+              className="text-teal-700"
             >
               {' '}
               Portfolio
@@ -79,7 +79,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <strong>Software Advisor</strong> at{' '}
               <a
                 href="https://www.softwareadvice.com/"
-                className="font-bold text-sky-600"
+                className="font-bold text-teal-700"
               >
                 Software Advice
               </a>
@@ -108,7 +108,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <strong>Accountant</strong> at
               <a
                 href="https://improving.com/"
-                className="font-bold text-sky-600 pl-1"
+                className="font-bold text-teal-700 pl-1"
               >
                 Improving
               </a>
@@ -140,7 +140,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <span className="font-semibold">Financial Goals</span> -
               <a
                 href="https://github.com/gdurant34/financial_goals_phase_2_project"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Github
@@ -148,7 +148,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://www.youtube.com/watch?v=SM_UWHfj3_8&t=3s"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Demo
@@ -185,7 +185,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <span className="font-semibold">Movie Social</span> -
               <a
                 href="https://github.com/gdurant34/project-movie-social"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Github Front-end
@@ -193,7 +193,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://github.com/gdurant34/phase-3-movie-social"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Github Back-end
@@ -201,7 +201,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://www.youtube.com/watch?v=LZ0wNL8z3N4&t=1s"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Demo
@@ -232,7 +232,7 @@ const ResumePage = ({ title }: { title: string }) => {
               <span className="font-semibold">It’s a Date</span> -
               <a
                 href="https://github.com/gdurant34/phase-5-project-its-a-date"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Github
@@ -240,7 +240,7 @@ const ResumePage = ({ title }: { title: string }) => {
               |
               <a
                 href="https://www.youtube.com/watch?v=SZPFzpYK7As&t=1s"
-                className="text-sky-600"
+                className="text-teal-700"
               >
                 {' '}
                 Demo
@@ -271,7 +271,7 @@ const ResumePage = ({ title }: { title: string }) => {
           <p className="pt-4">
             <a
               href="https://flatironschool.com/award-winning/"
-              className="font-bold text-sky-600 pl-1"
+              className="font-bold text-teal-700 pl-1"
             >
               Flatiron School
             </a>
@@ -286,7 +286,7 @@ const ResumePage = ({ title }: { title: string }) => {
           <p className="pt-4">
             <a
               href="https://www.unt.edu/"
-              className="font-bold text-sky-600 pl-1"
+              className="font-bold text-teal-700 pl-1"
             >
               The University of North Texas
             </a>
