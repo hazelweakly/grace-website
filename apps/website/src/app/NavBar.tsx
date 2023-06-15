@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 export default function NavBar() {
   const location = useLocation();
   const activeClass =
-    'bg-slate-100 text-red-700 px-4 py-3 flex items-center space-x-4 rounded-md font-bold';
+    'bg-green-800 bg-opacity-5 text-green-900 px-4 py-3 flex items-center space-x-4 rounded-md font-bold';
   const inactiveClass =
     'relative px-4 py-3 flex items-center space-x-4 text-gray-600 group rounded-md';
 
