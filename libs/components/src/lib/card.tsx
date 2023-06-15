@@ -21,16 +21,16 @@ export const Card = ({
         alt="team collaborating"
       />
     </AspectRatio.Root>
-    <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-slate-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal drop-shadow-lg">
+    <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-cyan-800 bg-opacity-70 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal drop-shadow-lg">
       <div className="mb-8">
-        <p className="text-sm text-gray-600 flex items-center">Medium</p>
-        <div className="text-gray-900 font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-700 text-base">{description}</p>
+        <p className="text-sm text-slate-100 flex items-center">Medium</p>
+        <div className="text-slate-100 font-bold text-xl mb-2">{title}</div>
+        <p className="text-slate-100 text-base">{description}</p>
       </div>
       <div className="flex items-center">
         <div className="text-sm">
           <p className="text-gray-900 leading-none">{name}</p>
-          <p className="text-gray-600">{date}</p>
+          <p className="text-slate-100">{date}</p>
         </div>
       </div>
     </div>

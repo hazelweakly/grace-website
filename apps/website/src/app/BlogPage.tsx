@@ -2,7 +2,11 @@ import { Card } from '@grace-website/components';
 
 const Blog = ({ title }: { title: string }) => {
   return (
-    <div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] h-screen bg-green-900 bg-opacity-30 p-1.5">
+    <div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] h-screen p-1.5">
+      <img 
+      src='/assets/images/annie-spratt-PM4Vu1B0gxk-unsplash.jpg'
+      alt=''
+      className='w-full h-full object-cover absolute mix-blend-overlay opacity-90'/>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
         <div>
           <Card
